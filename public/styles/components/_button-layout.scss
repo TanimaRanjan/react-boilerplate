@@ -1,0 +1,21 @@
+.button-layout {
+    color: white;
+    background-color: $light-blue;
+    display: inline-block;
+    font-weight: 300;
+    font-size: $font-large;
+    padding : $s-size;
+    margin: $s-size;
+    line-height: 1;
+    border: none;
+    text-decoration: none;
+}
+
+.button--link {
+    background: none;
+}
+
+.button-layout__remove {
+    @extend .button-layout;
+    background: #888888;
+}
